@@ -554,6 +554,12 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Configure autoscaling of an Azure VM Scale Set
 
+1. From the Cloud Shell pane select PowerShell and type in the following to register the **Microsoft.Insights** resource provider.
+
+    ```powershell
+    Register-AzResourceProvider -ProviderNamespace Microsoft.Insights
+    ```
+
 1. In the Azure portal, navigate to the **az30301c-labRG** resource group blade, in the list of resources, select the **az30301c-vmss** virtual machine scale set entry, and on the **az30301c-vmss** blade, select **Scaling**. 
 
 1. On the **az30301c-vmss \| Scaling** blade, select the **Custom autoscale** option.
