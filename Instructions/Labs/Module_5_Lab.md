@@ -77,7 +77,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, run the following to create a resource groups (replace the `<Azure region>` placeholder with the name of the Azure region that is available for deployment of Azure VMs in your subscription and which is closest to the location of your lab computer):
 
    ```powershell
-   $location = '<Azure region>'
+   location = '<Azure region>'
    ```
    
    ```powershell
