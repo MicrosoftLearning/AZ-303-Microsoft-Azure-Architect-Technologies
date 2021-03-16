@@ -505,7 +505,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, run the following to create a resource groups (replace the `<Azure region>` placeholder with the name of the Azure region that is available in your subscription and which is closest to the location of your lab computer):
 
    ```Bash
-   az deployment sub create --location '<Azure region>' --template-file azuredeploy30305subc.json --parameters rgName=az30305c-labRG rgLocation='<Azure region>'
+   az deployment sub create --location $LOCATION --template-file azuredeploy30305subc.json --parameters rgName=az30305c-labRG rgLocation=$LOCATION
    ```
 
 1. From the Cloud Shell pane, upload the Azure Resource Manager template **\\\\AZ303\\AllFiles\\Labs\\05\\azuredeploy30305rgc.json**.
