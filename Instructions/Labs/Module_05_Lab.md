@@ -514,10 +514,10 @@ The main tasks for this exercise are as follows:
 
 1. From the Cloud Shell pane, upload the Azure Resource Manager parameter file **\\\\AZ303\\AllFiles\\Labs\\05\\azuredeploy30305rgc.parameters.json**.
 
-1. From the Cloud Shell pane, run the following to deploy an Azure Application Gateway with its backend pool consisting of a pair of Azure VMs hosting Windows Server 2019 Datacenter Core across different availability zones (replace the `<vm_Size>` placeholder with the size of the Azure VM you intend to use for this deployment, such as `Standard_D2s_v3`):
+1. From the Cloud Shell pane, run the following to deploy an Azure Application Gateway with its backend pool consisting of a pair of Azure VMs hosting Windows Server 2019 Datacenter Core across different availability zones:
 
    ```
-   az deployment group create --resource-group az30305c-labRG --template-file azuredeploy30305rgc.json --parameters @azuredeploy30305rgc.parameters.json --vmSize <vm_Size>
+   az deployment group create --resource-group az30305c-labRG --template-file azuredeploy30305rgc.json --parameters @azuredeploy30305rgc.parameters.json
    ```
 
     > **Note**: Wait for the deployment to complete before proceeding to the next task. This should take about 10 minutes.
