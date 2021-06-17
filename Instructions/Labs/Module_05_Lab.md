@@ -178,8 +178,8 @@ The main tasks for this exercise are as follows:
 1. Review the associated network security group and the effective security rules, including two custom rules that allow inbound connectivity via RDP and HTTP.  
 
     > **Note**: Alternatively, you can view **Effective security rules** from:
-    - the **az30305a-nic0** network interface blade.
-    - the **az30305a-web-nsg** network security group blade 
+    - the **az30305b-nic0** network interface blade.
+    - the **az30305b-web-nsg** network security group blade 
     
 1. On the **Network Watcher** blade, select **Connection troubleshoot**.
 
